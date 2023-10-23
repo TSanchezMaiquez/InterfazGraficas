@@ -1,0 +1,10 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\bin\Debug\Ejercicio2TSM.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\bin\Debug\Ejercicio2TSM.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\bin\Debug\Ejercicio2TSM.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\obj\Debug\Ejercicio2TSM.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\obj\Debug\Ejercicio2TSM.Ejercicio2.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\obj\Debug\Ejercicio2TSM.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\obj\Debug\Ejercicio2TSM.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\obj\Debug\Ejercicio2TSM.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\obj\Debug\Ejercicio2TSM.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio2TSM\obj\Debug\Ejercicio2TSM.pdb

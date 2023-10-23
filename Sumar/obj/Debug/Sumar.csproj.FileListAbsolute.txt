@@ -1,0 +1,10 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\bin\Debug\Sumar.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\bin\Debug\Sumar.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\bin\Debug\Sumar.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\obj\Debug\Sumar.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\obj\Debug\Sumar.Form1.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\obj\Debug\Sumar.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\obj\Debug\Sumar.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\obj\Debug\Sumar.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\obj\Debug\Sumar.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Sumar\obj\Debug\Sumar.pdb

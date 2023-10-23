@@ -1,0 +1,11 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\bin\Debug\Ejercicio3SMT.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\bin\Debug\Ejercicio3SMT.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\bin\Debug\Ejercicio3SMT.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.Ejercicio3.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Ejercicio3SMT\obj\Debug\Ejercicio3SMT.Menu.resources

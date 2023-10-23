@@ -1,0 +1,10 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\obj\Debug\TresEnRaya.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\obj\Debug\TresEnRaya.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\obj\Debug\TresEnRaya.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\obj\Debug\TresEnRaya.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\bin\Debug\TresEnRaya.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\bin\Debug\TresEnRaya.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\bin\Debug\TresEnRaya.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\obj\Debug\TresEnRaya.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\obj\Debug\TresEnRaya.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\TresEnRaya\obj\Debug\TresEnRaya.TresEnRayaToñiSanchezMaiquez.resources
