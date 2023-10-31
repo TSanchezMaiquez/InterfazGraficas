@@ -88,6 +88,10 @@
             this.lblTipoListado = new System.Windows.Forms.Label();
             this.rtbListado = new System.Windows.Forms.RichTextBox();
             this.lblListado = new System.Windows.Forms.Label();
+            this.actualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblCodAct = new System.Windows.Forms.Label();
+            this.txtcodAct = new System.Windows.Forms.TextBox();
+            this.btnActArt = new System.Windows.Forms.Button();
             this.grbAltas.SuspendLayout();
             this.grbConsultas.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -98,6 +102,9 @@
             // grbAltas
             // 
             this.grbAltas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(190)))), ((int)(((byte)(240)))));
+            this.grbAltas.Controls.Add(this.btnActArt);
+            this.grbAltas.Controls.Add(this.txtcodAct);
+            this.grbAltas.Controls.Add(this.lblCodAct);
             this.grbAltas.Controls.Add(this.txtCodigo);
             this.grbAltas.Controls.Add(this.lblcódigo);
             this.grbAltas.Controls.Add(this.lblRegistro);
@@ -117,9 +124,11 @@
             this.grbAltas.Controls.Add(this.lblNombre);
             this.grbAltas.Controls.Add(this.cbbCategoria);
             this.grbAltas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbAltas.Location = new System.Drawing.Point(12, 79);
+            this.grbAltas.Location = new System.Drawing.Point(149, 115);
+            this.grbAltas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbAltas.Name = "grbAltas";
-            this.grbAltas.Size = new System.Drawing.Size(673, 504);
+            this.grbAltas.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbAltas.Size = new System.Drawing.Size(707, 452);
             this.grbAltas.TabIndex = 0;
             this.grbAltas.TabStop = false;
             this.grbAltas.Text = "Altas";
@@ -127,16 +136,18 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(310, 163);
+            this.txtCodigo.Location = new System.Drawing.Point(319, 177);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(170, 23);
+            this.txtCodigo.Size = new System.Drawing.Size(128, 23);
             this.txtCodigo.TabIndex = 17;
             // 
             // lblcódigo
             // 
             this.lblcódigo.AutoSize = true;
             this.lblcódigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcódigo.Location = new System.Drawing.Point(147, 163);
+            this.lblcódigo.Location = new System.Drawing.Point(197, 177);
+            this.lblcódigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcódigo.Name = "lblcódigo";
             this.lblcódigo.Size = new System.Drawing.Size(67, 20);
             this.lblcódigo.TabIndex = 16;
@@ -147,7 +158,8 @@
             this.lblRegistro.AutoSize = true;
             this.lblRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistro.ForeColor = System.Drawing.Color.Olive;
-            this.lblRegistro.Location = new System.Drawing.Point(209, 447);
+            this.lblRegistro.Location = new System.Drawing.Point(198, 404);
+            this.lblRegistro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRegistro.Name = "lblRegistro";
             this.lblRegistro.Size = new System.Drawing.Size(146, 18);
             this.lblRegistro.TabIndex = 15;
@@ -159,7 +171,8 @@
             this.lblCategoriaError.AutoSize = true;
             this.lblCategoriaError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategoriaError.ForeColor = System.Drawing.Color.Red;
-            this.lblCategoriaError.Location = new System.Drawing.Point(504, 276);
+            this.lblCategoriaError.Location = new System.Drawing.Point(465, 269);
+            this.lblCategoriaError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCategoriaError.Name = "lblCategoriaError";
             this.lblCategoriaError.Size = new System.Drawing.Size(142, 17);
             this.lblCategoriaError.TabIndex = 14;
@@ -171,7 +184,8 @@
             this.lblExistError.AutoSize = true;
             this.lblExistError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExistError.ForeColor = System.Drawing.Color.Red;
-            this.lblExistError.Location = new System.Drawing.Point(504, 373);
+            this.lblExistError.Location = new System.Drawing.Point(465, 348);
+            this.lblExistError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblExistError.Name = "lblExistError";
             this.lblExistError.Size = new System.Drawing.Size(76, 17);
             this.lblExistError.TabIndex = 13;
@@ -183,7 +197,8 @@
             this.lblPrecioError.AutoSize = true;
             this.lblPrecioError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrecioError.ForeColor = System.Drawing.Color.Red;
-            this.lblPrecioError.Location = new System.Drawing.Point(504, 328);
+            this.lblPrecioError.Location = new System.Drawing.Point(465, 311);
+            this.lblPrecioError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecioError.Name = "lblPrecioError";
             this.lblPrecioError.Size = new System.Drawing.Size(76, 17);
             this.lblPrecioError.TabIndex = 12;
@@ -195,7 +210,8 @@
             this.lblNombreError.AutoSize = true;
             this.lblNombreError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreError.ForeColor = System.Drawing.Color.Red;
-            this.lblNombreError.Location = new System.Drawing.Point(504, 219);
+            this.lblNombreError.Location = new System.Drawing.Point(465, 223);
+            this.lblNombreError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombreError.Name = "lblNombreError";
             this.lblNombreError.Size = new System.Drawing.Size(76, 17);
             this.lblNombreError.TabIndex = 11;
@@ -206,9 +222,10 @@
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(507, 437);
+            this.btnCancelar.Location = new System.Drawing.Point(467, 400);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(155, 36);
+            this.btnCancelar.Size = new System.Drawing.Size(116, 29);
             this.btnCancelar.TabIndex = 10;
             this.btnCancelar.Text = "Reiniciar campos";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -218,9 +235,10 @@
             // 
             this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.Location = new System.Drawing.Point(392, 437);
+            this.btnAceptar.Location = new System.Drawing.Point(381, 400);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(89, 36);
+            this.btnAceptar.Size = new System.Drawing.Size(67, 29);
             this.btnAceptar.TabIndex = 9;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
@@ -230,7 +248,8 @@
             // 
             this.lblAltas.AutoSize = true;
             this.lblAltas.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAltas.Location = new System.Drawing.Point(305, 100);
+            this.lblAltas.Location = new System.Drawing.Point(316, 126);
+            this.lblAltas.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAltas.Name = "lblAltas";
             this.lblAltas.Size = new System.Drawing.Size(66, 26);
             this.lblAltas.TabIndex = 8;
@@ -238,9 +257,10 @@
             // 
             // txtExistencias
             // 
-            this.txtExistencias.Location = new System.Drawing.Point(307, 373);
+            this.txtExistencias.Location = new System.Drawing.Point(317, 348);
+            this.txtExistencias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtExistencias.Name = "txtExistencias";
-            this.txtExistencias.Size = new System.Drawing.Size(174, 23);
+            this.txtExistencias.Size = new System.Drawing.Size(132, 23);
             this.txtExistencias.TabIndex = 7;
             this.txtExistencias.Text = "Ni nº negativos ni 0";
             this.txtExistencias.Click += new System.EventHandler(this.textBoxReinicio_Click);
@@ -249,7 +269,8 @@
             // 
             this.lblExistencias.AutoSize = true;
             this.lblExistencias.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExistencias.Location = new System.Drawing.Point(147, 373);
+            this.lblExistencias.Location = new System.Drawing.Point(197, 348);
+            this.lblExistencias.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblExistencias.Name = "lblExistencias";
             this.lblExistencias.Size = new System.Drawing.Size(106, 20);
             this.lblExistencias.TabIndex = 6;
@@ -257,9 +278,10 @@
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(311, 323);
+            this.txtPrecio.Location = new System.Drawing.Point(320, 307);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(170, 23);
+            this.txtPrecio.Size = new System.Drawing.Size(128, 23);
             this.txtPrecio.TabIndex = 5;
             this.txtPrecio.Text = "2 decimales y coma";
             this.txtPrecio.Click += new System.EventHandler(this.textBoxReinicio_Click);
@@ -268,7 +290,8 @@
             // 
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecio.Location = new System.Drawing.Point(147, 323);
+            this.lblPrecio.Location = new System.Drawing.Point(197, 307);
+            this.lblPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(63, 20);
             this.lblPrecio.TabIndex = 4;
@@ -278,7 +301,8 @@
             // 
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategoria.Location = new System.Drawing.Point(147, 269);
+            this.lblCategoria.Location = new System.Drawing.Point(197, 264);
+            this.lblCategoria.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(90, 20);
             this.lblCategoria.TabIndex = 3;
@@ -286,9 +310,10 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(311, 219);
+            this.txtNombre.Location = new System.Drawing.Point(320, 223);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(170, 23);
+            this.txtNombre.Size = new System.Drawing.Size(128, 23);
             this.txtNombre.TabIndex = 2;
             this.txtNombre.Text = "Minimo 3 carácteres";
             this.txtNombre.Click += new System.EventHandler(this.textBoxReinicio_Click);
@@ -297,7 +322,8 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(147, 219);
+            this.lblNombre.Location = new System.Drawing.Point(197, 223);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(143, 20);
             this.lblNombre.TabIndex = 1;
@@ -312,9 +338,10 @@
             "Imagen",
             "Telefonía",
             "Sonido"});
-            this.cbbCategoria.Location = new System.Drawing.Point(311, 269);
+            this.cbbCategoria.Location = new System.Drawing.Point(320, 264);
+            this.cbbCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbbCategoria.Name = "cbbCategoria";
-            this.cbbCategoria.Size = new System.Drawing.Size(170, 24);
+            this.cbbCategoria.Size = new System.Drawing.Size(128, 24);
             this.cbbCategoria.TabIndex = 0;
             // 
             // grbConsultas
@@ -330,9 +357,11 @@
             this.grbConsultas.Controls.Add(this.lblCon);
             this.grbConsultas.Controls.Add(this.lblConsultas);
             this.grbConsultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbConsultas.Location = new System.Drawing.Point(124, 51);
+            this.grbConsultas.Location = new System.Drawing.Point(233, 92);
+            this.grbConsultas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbConsultas.Name = "grbConsultas";
-            this.grbConsultas.Size = new System.Drawing.Size(825, 532);
+            this.grbConsultas.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbConsultas.Size = new System.Drawing.Size(619, 432);
             this.grbConsultas.TabIndex = 18;
             this.grbConsultas.TabStop = false;
             this.grbConsultas.Text = "Consultas";
@@ -342,9 +371,10 @@
             // 
             this.btnElimArt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnElimArt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnElimArt.Location = new System.Drawing.Point(619, 461);
+            this.btnElimArt.Location = new System.Drawing.Point(464, 375);
+            this.btnElimArt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnElimArt.Name = "btnElimArt";
-            this.btnElimArt.Size = new System.Drawing.Size(131, 45);
+            this.btnElimArt.Size = new System.Drawing.Size(98, 37);
             this.btnElimArt.TabIndex = 27;
             this.btnElimArt.Text = "Eliminar";
             this.btnElimArt.UseVisualStyleBackColor = false;
@@ -355,7 +385,8 @@
             // 
             this.lblElimArt.AutoSize = true;
             this.lblElimArt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblElimArt.Location = new System.Drawing.Point(228, 473);
+            this.lblElimArt.Location = new System.Drawing.Point(64, 384);
+            this.lblElimArt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblElimArt.Name = "lblElimArt";
             this.lblElimArt.Size = new System.Drawing.Size(373, 20);
             this.lblElimArt.TabIndex = 26;
@@ -366,7 +397,8 @@
             // 
             this.lblInfoElim.AutoSize = true;
             this.lblInfoElim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfoElim.Location = new System.Drawing.Point(276, 94);
+            this.lblInfoElim.Location = new System.Drawing.Point(194, 76);
+            this.lblInfoElim.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblInfoElim.Name = "lblInfoElim";
             this.lblInfoElim.Size = new System.Drawing.Size(213, 20);
             this.lblInfoElim.TabIndex = 25;
@@ -378,7 +410,8 @@
             this.lblConError.AutoSize = true;
             this.lblConError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblConError.ForeColor = System.Drawing.Color.Red;
-            this.lblConError.Location = new System.Drawing.Point(291, 194);
+            this.lblConError.Location = new System.Drawing.Point(218, 158);
+            this.lblConError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblConError.Name = "lblConError";
             this.lblConError.Size = new System.Drawing.Size(129, 17);
             this.lblConError.TabIndex = 24;
@@ -387,9 +420,10 @@
             // 
             // rtbConsultas
             // 
-            this.rtbConsultas.Location = new System.Drawing.Point(151, 234);
+            this.rtbConsultas.Location = new System.Drawing.Point(113, 190);
+            this.rtbConsultas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rtbConsultas.Name = "rtbConsultas";
-            this.rtbConsultas.Size = new System.Drawing.Size(502, 200);
+            this.rtbConsultas.Size = new System.Drawing.Size(378, 163);
             this.rtbConsultas.TabIndex = 23;
             this.rtbConsultas.Text = "";
             // 
@@ -397,9 +431,10 @@
             // 
             this.btnConsultas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnConsultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultas.Location = new System.Drawing.Point(465, 137);
+            this.btnConsultas.Location = new System.Drawing.Point(349, 111);
+            this.btnConsultas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnConsultas.Name = "btnConsultas";
-            this.btnConsultas.Size = new System.Drawing.Size(159, 55);
+            this.btnConsultas.Size = new System.Drawing.Size(119, 45);
             this.btnConsultas.TabIndex = 22;
             this.btnConsultas.Text = "Buscar artículo";
             this.btnConsultas.UseVisualStyleBackColor = false;
@@ -407,16 +442,18 @@
             // 
             // txtConsultas
             // 
-            this.txtConsultas.Location = new System.Drawing.Point(276, 153);
+            this.txtConsultas.Location = new System.Drawing.Point(207, 124);
+            this.txtConsultas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtConsultas.Name = "txtConsultas";
-            this.txtConsultas.Size = new System.Drawing.Size(170, 23);
+            this.txtConsultas.Size = new System.Drawing.Size(128, 23);
             this.txtConsultas.TabIndex = 19;
             // 
             // lblCon
             // 
             this.lblCon.AutoSize = true;
             this.lblCon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCon.Location = new System.Drawing.Point(175, 153);
+            this.lblCon.Location = new System.Drawing.Point(131, 124);
+            this.lblCon.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCon.Name = "lblCon";
             this.lblCon.Size = new System.Drawing.Size(74, 20);
             this.lblCon.TabIndex = 18;
@@ -426,7 +463,8 @@
             // 
             this.lblConsultas.AutoSize = true;
             this.lblConsultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsultas.Location = new System.Drawing.Point(317, 54);
+            this.lblConsultas.Location = new System.Drawing.Point(238, 44);
+            this.lblConsultas.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblConsultas.Name = "lblConsultas";
             this.lblConsultas.Size = new System.Drawing.Size(118, 26);
             this.lblConsultas.TabIndex = 9;
@@ -443,7 +481,8 @@
             this.autorToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(998, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1162, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -453,6 +492,7 @@
             this.artículosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.altasToolStripMenuItem,
             this.pedidosToolStripMenuItem,
+            this.actualizarToolStripMenuItem,
             this.eliminarToolStripMenuItem,
             this.salirToolStripMenuItem,
             this.salirToolStripMenuItem1});
@@ -464,7 +504,7 @@
             // 
             this.altasToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.altasToolStripMenuItem.Name = "altasToolStripMenuItem";
-            this.altasToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.altasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.altasToolStripMenuItem.Text = "&Altas";
             this.altasToolStripMenuItem.Click += new System.EventHandler(this.articulosToolStripMenuItem_Click);
             // 
@@ -472,7 +512,7 @@
             // 
             this.pedidosToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pedidosToolStripMenuItem.Text = "&Pedidos";
             this.pedidosToolStripMenuItem.Click += new System.EventHandler(this.articulosToolStripMenuItem_Click);
             // 
@@ -480,20 +520,20 @@
             // 
             this.eliminarToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.eliminarToolStripMenuItem.Text = "&Eliminar";
             this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.consultasToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(143, 6);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
             // 
             // salirToolStripMenuItem1
             // 
             this.salirToolStripMenuItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(146, 26);
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.salirToolStripMenuItem1.Text = "&Salir";
             this.salirToolStripMenuItem1.Click += new System.EventHandler(this.articulosToolStripMenuItem_Click);
             // 
@@ -511,7 +551,7 @@
             // 
             this.porNombreToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.porNombreToolStripMenuItem.Name = "porNombreToolStripMenuItem";
-            this.porNombreToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
+            this.porNombreToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.porNombreToolStripMenuItem.Text = "Por &Nombre";
             this.porNombreToolStripMenuItem.Click += new System.EventHandler(this.consultasToolStripMenuItem_Click);
             // 
@@ -519,7 +559,7 @@
             // 
             this.porCodigoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.porCodigoToolStripMenuItem.Name = "porCodigoToolStripMenuItem";
-            this.porCodigoToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
+            this.porCodigoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.porCodigoToolStripMenuItem.Text = "Por &Codigo";
             this.porCodigoToolStripMenuItem.Click += new System.EventHandler(this.consultasToolStripMenuItem_Click);
             // 
@@ -538,7 +578,7 @@
             // 
             this.mínimosToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.mínimosToolStripMenuItem.Name = "mínimosToolStripMenuItem";
-            this.mínimosToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
+            this.mínimosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.mínimosToolStripMenuItem.Text = "&Mínimos";
             this.mínimosToolStripMenuItem.Click += new System.EventHandler(this.listadoToolStripMenuItem_Click);
             // 
@@ -546,7 +586,7 @@
             // 
             this.porCategoríaToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.porCategoríaToolStripMenuItem.Name = "porCategoríaToolStripMenuItem";
-            this.porCategoríaToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
+            this.porCategoríaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.porCategoríaToolStripMenuItem.Text = "Por &Categoría";
             this.porCategoríaToolStripMenuItem.Click += new System.EventHandler(this.listadoToolStripMenuItem_Click);
             // 
@@ -554,7 +594,7 @@
             // 
             this.todosToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.todosToolStripMenuItem.Name = "todosToolStripMenuItem";
-            this.todosToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
+            this.todosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.todosToolStripMenuItem.Text = "&Todos";
             this.todosToolStripMenuItem.Click += new System.EventHandler(this.listadoToolStripMenuItem_Click);
             // 
@@ -571,7 +611,7 @@
             // 
             this.autorToolStripMenuItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.autorToolStripMenuItem1.Name = "autorToolStripMenuItem1";
-            this.autorToolStripMenuItem1.Size = new System.Drawing.Size(129, 26);
+            this.autorToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.autorToolStripMenuItem1.Text = "Autor";
             this.autorToolStripMenuItem1.Click += new System.EventHandler(this.autorToolStripMenuItem_Click);
             // 
@@ -587,9 +627,11 @@
             this.grbPedido.Controls.Add(this.lblcodPed);
             this.grbPedido.Controls.Add(this.lblPedido);
             this.grbPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbPedido.Location = new System.Drawing.Point(58, 57);
+            this.grbPedido.Location = new System.Drawing.Point(184, 97);
+            this.grbPedido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbPedido.Name = "grbPedido";
-            this.grbPedido.Size = new System.Drawing.Size(739, 491);
+            this.grbPedido.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbPedido.Size = new System.Drawing.Size(554, 399);
             this.grbPedido.TabIndex = 2;
             this.grbPedido.TabStop = false;
             this.grbPedido.Text = "Pedidos";
@@ -600,7 +642,8 @@
             this.lblPedRealizado.AutoSize = true;
             this.lblPedRealizado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPedRealizado.ForeColor = System.Drawing.Color.Olive;
-            this.lblPedRealizado.Location = new System.Drawing.Point(185, 342);
+            this.lblPedRealizado.Location = new System.Drawing.Point(139, 278);
+            this.lblPedRealizado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPedRealizado.Name = "lblPedRealizado";
             this.lblPedRealizado.Size = new System.Drawing.Size(208, 18);
             this.lblPedRealizado.TabIndex = 24;
@@ -612,7 +655,8 @@
             this.lblCodNoExiste.AutoSize = true;
             this.lblCodNoExiste.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCodNoExiste.ForeColor = System.Drawing.Color.Red;
-            this.lblCodNoExiste.Location = new System.Drawing.Point(185, 379);
+            this.lblCodNoExiste.Location = new System.Drawing.Point(139, 308);
+            this.lblCodNoExiste.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCodNoExiste.Name = "lblCodNoExiste";
             this.lblCodNoExiste.Size = new System.Drawing.Size(218, 17);
             this.lblCodNoExiste.TabIndex = 23;
@@ -623,9 +667,10 @@
             // 
             this.bntStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.bntStock.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntStock.Location = new System.Drawing.Point(424, 235);
+            this.bntStock.Location = new System.Drawing.Point(318, 191);
+            this.bntStock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bntStock.Name = "bntStock";
-            this.bntStock.Size = new System.Drawing.Size(185, 73);
+            this.bntStock.Size = new System.Drawing.Size(139, 59);
             this.bntStock.TabIndex = 21;
             this.bntStock.Text = "Comprobar Stock";
             this.bntStock.UseVisualStyleBackColor = false;
@@ -633,16 +678,18 @@
             // 
             // txtCantPed
             // 
-            this.txtCantPed.Location = new System.Drawing.Point(188, 289);
+            this.txtCantPed.Location = new System.Drawing.Point(141, 235);
+            this.txtCantPed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCantPed.Name = "txtCantPed";
-            this.txtCantPed.Size = new System.Drawing.Size(170, 23);
+            this.txtCantPed.Size = new System.Drawing.Size(128, 23);
             this.txtCantPed.TabIndex = 20;
             // 
             // lblCanPed
             // 
             this.lblCanPed.AutoSize = true;
             this.lblCanPed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCanPed.Location = new System.Drawing.Point(84, 291);
+            this.lblCanPed.Location = new System.Drawing.Point(63, 236);
+            this.lblCanPed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCanPed.Name = "lblCanPed";
             this.lblCanPed.Size = new System.Drawing.Size(83, 20);
             this.lblCanPed.TabIndex = 19;
@@ -650,16 +697,18 @@
             // 
             // txtCodPed
             // 
-            this.txtCodPed.Location = new System.Drawing.Point(188, 228);
+            this.txtCodPed.Location = new System.Drawing.Point(141, 185);
+            this.txtCodPed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCodPed.Name = "txtCodPed";
-            this.txtCodPed.Size = new System.Drawing.Size(170, 23);
+            this.txtCodPed.Size = new System.Drawing.Size(128, 23);
             this.txtCodPed.TabIndex = 18;
             // 
             // lblcodPed
             // 
             this.lblcodPed.AutoSize = true;
             this.lblcodPed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcodPed.Location = new System.Drawing.Point(84, 230);
+            this.lblcodPed.Location = new System.Drawing.Point(63, 187);
+            this.lblcodPed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcodPed.Name = "lblcodPed";
             this.lblcodPed.Size = new System.Drawing.Size(67, 20);
             this.lblcodPed.TabIndex = 17;
@@ -669,7 +718,8 @@
             // 
             this.lblPedido.AutoSize = true;
             this.lblPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPedido.Location = new System.Drawing.Point(222, 154);
+            this.lblPedido.Location = new System.Drawing.Point(166, 125);
+            this.lblPedido.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPedido.Name = "lblPedido";
             this.lblPedido.Size = new System.Drawing.Size(98, 26);
             this.lblPedido.TabIndex = 9;
@@ -684,9 +734,11 @@
             this.grbListado.Controls.Add(this.rtbListado);
             this.grbListado.Controls.Add(this.lblListado);
             this.grbListado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbListado.Location = new System.Drawing.Point(215, 35);
+            this.grbListado.Location = new System.Drawing.Point(301, 79);
+            this.grbListado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbListado.Name = "grbListado";
-            this.grbListado.Size = new System.Drawing.Size(740, 513);
+            this.grbListado.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbListado.Size = new System.Drawing.Size(555, 417);
             this.grbListado.TabIndex = 18;
             this.grbListado.TabStop = false;
             this.grbListado.Text = "Listado";
@@ -700,9 +752,10 @@
             "Imagen",
             "Telefonía",
             "Sonido"});
-            this.cbbListado.Location = new System.Drawing.Point(318, 159);
+            this.cbbListado.Location = new System.Drawing.Point(238, 129);
+            this.cbbListado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbbListado.Name = "cbbListado";
-            this.cbbListado.Size = new System.Drawing.Size(170, 24);
+            this.cbbListado.Size = new System.Drawing.Size(128, 24);
             this.cbbListado.TabIndex = 27;
             this.cbbListado.Text = "Selecciona una";
             this.cbbListado.Visible = false;
@@ -712,7 +765,8 @@
             // 
             this.lblCatList.AutoSize = true;
             this.lblCatList.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCatList.Location = new System.Drawing.Point(197, 159);
+            this.lblCatList.Location = new System.Drawing.Point(148, 129);
+            this.lblCatList.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCatList.Name = "lblCatList";
             this.lblCatList.Size = new System.Drawing.Size(90, 20);
             this.lblCatList.TabIndex = 26;
@@ -723,7 +777,8 @@
             // 
             this.lblTipoListado.AutoSize = true;
             this.lblTipoListado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoListado.Location = new System.Drawing.Point(320, 96);
+            this.lblTipoListado.Location = new System.Drawing.Point(240, 78);
+            this.lblTipoListado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTipoListado.Name = "lblTipoListado";
             this.lblTipoListado.Size = new System.Drawing.Size(24, 26);
             this.lblTipoListado.TabIndex = 25;
@@ -731,9 +786,10 @@
             // 
             // rtbListado
             // 
-            this.rtbListado.Location = new System.Drawing.Point(71, 211);
+            this.rtbListado.Location = new System.Drawing.Point(53, 171);
+            this.rtbListado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rtbListado.Name = "rtbListado";
-            this.rtbListado.Size = new System.Drawing.Size(597, 261);
+            this.rtbListado.Size = new System.Drawing.Size(449, 213);
             this.rtbListado.TabIndex = 24;
             this.rtbListado.Text = "";
             // 
@@ -741,24 +797,69 @@
             // 
             this.lblListado.AutoSize = true;
             this.lblListado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblListado.Location = new System.Drawing.Point(218, 96);
+            this.lblListado.Location = new System.Drawing.Point(164, 78);
+            this.lblListado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblListado.Name = "lblListado";
             this.lblListado.Size = new System.Drawing.Size(78, 26);
             this.lblListado.TabIndex = 9;
             this.lblListado.Text = "Listar:";
             // 
+            // actualizarToolStripMenuItem
+            // 
+            this.actualizarToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.actualizarToolStripMenuItem.Name = "actualizarToolStripMenuItem";
+            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.actualizarToolStripMenuItem.Text = "Actualizar";
+            this.actualizarToolStripMenuItem.Click += new System.EventHandler(this.articulosToolStripMenuItem_Click);
+            // 
+            // lblCodAct
+            // 
+            this.lblCodAct.AutoSize = true;
+            this.lblCodAct.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCodAct.Location = new System.Drawing.Point(143, 70);
+            this.lblCodAct.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCodAct.Name = "lblCodAct";
+            this.lblCodAct.Size = new System.Drawing.Size(241, 20);
+            this.lblCodAct.TabIndex = 18;
+            this.lblCodAct.Text = "Código artículo a actualizar";
+            this.lblCodAct.Visible = false;
+            // 
+            // txtcodAct
+            // 
+            this.txtcodAct.Location = new System.Drawing.Point(398, 70);
+            this.txtcodAct.Margin = new System.Windows.Forms.Padding(2);
+            this.txtcodAct.Name = "txtcodAct";
+            this.txtcodAct.Size = new System.Drawing.Size(128, 23);
+            this.txtcodAct.TabIndex = 19;
+            this.txtcodAct.Visible = false;
+            // 
+            // btnActArt
+            // 
+            this.btnActArt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnActArt.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActArt.Location = new System.Drawing.Point(567, 67);
+            this.btnActArt.Margin = new System.Windows.Forms.Padding(2);
+            this.btnActArt.Name = "btnActArt";
+            this.btnActArt.Size = new System.Drawing.Size(67, 29);
+            this.btnActArt.TabIndex = 20;
+            this.btnActArt.Text = "Buscar";
+            this.btnActArt.UseVisualStyleBackColor = false;
+            this.btnActArt.Visible = false;
+            this.btnActArt.Click += new System.EventHandler(this.btnActArt_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(998, 607);
+            this.ClientSize = new System.Drawing.Size(1162, 655);
+            this.Controls.Add(this.grbAltas);
             this.Controls.Add(this.grbConsultas);
             this.Controls.Add(this.grbPedido);
             this.Controls.Add(this.grbListado);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.grbAltas);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Toñi Sanchez Maiquez";
             this.grbAltas.ResumeLayout(false);
@@ -838,6 +939,10 @@
         private System.Windows.Forms.Label lblInfoElim;
         private System.Windows.Forms.Button btnElimArt;
         private System.Windows.Forms.Label lblElimArt;
+        private System.Windows.Forms.ToolStripMenuItem actualizarToolStripMenuItem;
+        private System.Windows.Forms.Label lblCodAct;
+        private System.Windows.Forms.TextBox txtcodAct;
+        private System.Windows.Forms.Button btnActArt;
     }
 }
 

@@ -24,20 +24,41 @@ namespace EjercicioClases
         public Form1()
         {
             InitializeComponent();
+           
         }
 
+      
       
         private void articulosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             grbConsultas.Visible = false;
             grbListado.Visible = false;
+            grbPedido.Visible = false;
+            grbAltas.Visible = false;
+            lblCodAct.Visible = false;
+            btnActArt.Visible = false;
+            txtcodAct.Visible = false;
             ToolStripItem menuItem = sender as ToolStripItem;
 
-            if (string.Equals(menuItem.Text, "&Altas", StringComparison.OrdinalIgnoreCase))
+            if (string.Equals(menuItem.Text, "Actualizar", StringComparison.OrdinalIgnoreCase))
+            {
+                grbAltas.Visible=true;
+                lblAltas.Text = "Actualizar";
+                bloquearCamposAlta();
+                btnAceptar.Enabled = false;
+                btnCancelar.Enabled = false;
+                txtCodigo.Enabled = false;
+                lblCodAct.Visible = true;
+                btnActArt.Visible = true;
+                txtcodAct.Visible = true;
+            }
+
+            else if (string.Equals(menuItem.Text, "&Altas", StringComparison.OrdinalIgnoreCase))
             {
                 int codigo = articulos.Count+1;
-                grbPedido.Visible = false;
+              
                 grbAltas.Visible = true;
+                lblAltas.Text = "Altas";
                 txtCodigo.Enabled = false;
                 txtCodigo.Text = codigo.ToString();
 
@@ -45,7 +66,7 @@ namespace EjercicioClases
             }
             else if (string.Equals(menuItem.Text, "&Pedidos", StringComparison.OrdinalIgnoreCase))
             {
-                grbAltas.Visible = false;
+               
                 grbPedido.Visible = true;
                 lblCodNoExiste.Visible = false;
             }
@@ -57,6 +78,7 @@ namespace EjercicioClases
         private void consultasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ToolStripItem menuItem = sender as ToolStripItem;
+            lblConsultas.Text = "Consultas";
             rtbConsultas.Clear();
             grbAltas.Visible = false;
             grbConsultas.Visible = true;
@@ -64,7 +86,7 @@ namespace EjercicioClases
             grbListado.Visible = false;
             lblInfoElim.Visible = false;
             lblElimArt.Visible = false;
-            btnElimArt.Enabled = false;
+            btnElimArt.Visible = false;
 
             if (string.Equals(menuItem.Text, "Por &Nombre", StringComparison.OrdinalIgnoreCase))
             {
@@ -89,8 +111,6 @@ namespace EjercicioClases
 
             string mensaje = "Toñi Sánchez Maiquez";
             DialogResult result = MessageBox.Show(mensaje, "Autor");
-
-
 
         }
         private void listadoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -130,6 +150,23 @@ namespace EjercicioClases
             }
             
         }
+        private void btnActArt_Click(object sender, EventArgs e)
+        {
+            if(int.TryParse(txtcodAct.Text, out int num))
+            {
+                for (int i = 0; i < articulos.Count; i++)
+                {
+                    if (articulos[i].CodigoArt == num)
+                    {
+                        reiniciarCampos();
+                        btnAceptar.Enabled = true;
+                        btnCancelar.Enabled = true;
+                        txtCodigo.Text = txtcodAct.Text;
+                    }
+                }
+            }
+            
+        }
         private void cbbListado_SelectedIndexChanged(object sender, EventArgs e)
         {
             listarArticulos(2);
@@ -137,7 +174,7 @@ namespace EjercicioClases
 
         private void listarArticulos(int tipoBusqueda)
         {
-            Articulo aux = new Articulo();
+            
 
             if (tipoBusqueda == 1)
             {
@@ -145,8 +182,8 @@ namespace EjercicioClases
                 {
                     if (articulos[i].ExistenciasArt < 10)
                     {
-                        aux = articulos[i];
-                        rtbListado.AppendText("\n   ---Artículo " + (i + 1) + " ---   \n\n" + aux.ToString() + Environment.NewLine);
+                        this.articulo = articulos[i];
+                        rtbListado.AppendText("\n   ---Artículo " + (i + 1) + " ---   \n\n" + articulo.ToString() + Environment.NewLine);
 
                     }
                 }
@@ -160,8 +197,8 @@ namespace EjercicioClases
                 {
                     if (String.Equals(articulos[i].CategoriaArt, elementoSeleccionado.ToString(), StringComparison.OrdinalIgnoreCase))
                     {
-                        aux = articulos[i];
-                        rtbListado.AppendText("\n   ---Artículo " + (i + 1) + " ---   \n\n" + aux.ToString() + Environment.NewLine);
+                        articulo = articulos[i];
+                        rtbListado.AppendText("\n   ---Artículo " + (i + 1) + " ---   \n\n" + articulo.ToString() + Environment.NewLine);
                     }
                 }
             }
@@ -169,8 +206,8 @@ namespace EjercicioClases
             {
                 for (int i = 0; i < articulos.Count; i++)
                 {
-                        aux = articulos[i];
-                        rtbListado.AppendText("\n   ---Artículo " + (i + 1) + " ---   \n\n" + aux.ToString() + Environment.NewLine); 
+                        articulo = articulos[i];
+                        rtbListado.AppendText("\n   ---Artículo " + (i + 1) + " ---   \n\n" + articulo.ToString() + Environment.NewLine); 
                 }
             }
 
@@ -210,24 +247,50 @@ namespace EjercicioClases
 
                 if (!lblNombreError.Visible && !lblPrecioError.Visible && !lblExistError.Visible && !lblCategoriaError.Visible)
                 {
-                    txtNombre.Enabled = false;
-                    cbbCategoria.Enabled = false;
-                    txtPrecio.Enabled = false;
-                    txtExistencias.Enabled = false;
 
-                    registrar();
+                    bloquearCamposAlta();
+
+                    if ((String.Equals(lblAltas.Text, "Actualizar", StringComparison.OrdinalIgnoreCase)))
+                    {
+                    actualizar();
+                    }
+
+
+                registrar();
                     
                 }
 
+        }
+        private void bloquearCamposAlta()
+        {
+            txtNombre.Enabled = false;
+            cbbCategoria.Enabled = false;
+            txtPrecio.Enabled = false;
+            txtExistencias.Enabled = false;
+        }
+        private void actualizar()
+        {
+            int codigo = int.Parse(txtCodigo.Text);
+            for (int i = 0; i < articulos.Count; i++)
+            {
+                if (articulos[i].CodigoArt == codigo)
+                {
+                    articulos[i].NombreArt = txtNombre.Text;
+                    articulos[i].CategoriaArt = cbbCategoria.Text;
+                    articulos[i].PrecioArt = double.Parse(txtPrecio.Text);
+                    articulos[i].ExistenciasArt =int.Parse(txtExistencias.Text);
+
+                }
+            }
         }
         private void registrar()
         {
             object elementoSeleccionado = cbbCategoria.SelectedItem;
             String eleSel = elementoSeleccionado.ToString();
             double precioArt = Double.Parse(precio);
-            Articulo aux = new Articulo(txtNombre.Text, eleSel, precioArt, numero);
+            articulo = new Articulo(txtNombre.Text, eleSel, precioArt, numero);
 
-            articulos.Add(aux);
+            articulos.Add(articulo);
             lblRegistro.Visible = true;
         }
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -266,7 +329,7 @@ namespace EjercicioClases
         private void buscarCodigo (int numCod, int numCant)
         {
             bool existe = false;
-            Articulo articulo = new Articulo();
+            
             for (int i = 0; i < articulos.Count; i++)
             {
                 if (articulos[i].CodigoArt == numCod)
@@ -277,7 +340,7 @@ namespace EjercicioClases
             }
             if (existe)
             {
-                actualizarExistencias(articulo, numCant);
+                actualizarExistencias(numCant);
             }
             else
             {
@@ -285,7 +348,7 @@ namespace EjercicioClases
             }
         }
 
-        private void actualizarExistencias(Articulo articulo, int cantidad)
+        private void actualizarExistencias(int cantidad)
         {
 
             if (articulo.ExistenciasArt >= cantidad)
@@ -314,7 +377,7 @@ namespace EjercicioClases
         private void btnConsultas_Click(object sender, EventArgs e)
         {
            
-            Articulo articulo = new Articulo();
+            
             bool articuloEncontrado = false;
             rtbConsultas.Clear();
             bool busquedaPorCodigo = false;
@@ -360,8 +423,12 @@ namespace EjercicioClases
             if (result == DialogResult.Yes)
             {
 
-                //articulos.RemoveAt(txtConsultas.Text);
+                articulos.Remove(articulo);
+                mensaje = "Articulo eliminado";
+                result = MessageBox.Show(mensaje);
             }
         }
+
+       
     }
 }

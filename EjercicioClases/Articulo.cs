@@ -29,12 +29,12 @@ namespace EjercicioClases
             this.codigoArt = codigoCompartido;
 
         }
-
+       
         public int CodigoCompartido
         {
             get { return codigoCompartido; }
         }
-
+       
         public int CodigoArt {
             get { return codigoArt; }
         }
@@ -42,15 +42,21 @@ namespace EjercicioClases
         public String NombreArt
         {
             get { return nombreArt; }
+            set { nombreArt = value; }
         }
+
 
         public double PrecioArt
         {
             get { return precioArt; }
+            set { precioArt = value; }
+            
         }
         public String CategoriaArt
         {
+           
             get { return categoriaArt; }
+            set { categoriaArt = value; }
         }
         public int ExistenciasArt
         {
