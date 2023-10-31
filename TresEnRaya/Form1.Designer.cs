@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.txt1 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
             this.txt3 = new System.Windows.Forms.TextBox();
             this.txt4 = new System.Windows.Forms.TextBox();
@@ -38,6 +37,7 @@
             this.txt7 = new System.Windows.Forms.TextBox();
             this.txt8 = new System.Windows.Forms.TextBox();
             this.txt9 = new System.Windows.Forms.TextBox();
+            this.txt1 = new System.Windows.Forms.TextBox();
             this.pnlJuego = new System.Windows.Forms.Panel();
             this.lblO = new System.Windows.Forms.Label();
             this.lblX = new System.Windows.Forms.Label();
@@ -80,17 +80,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(336, 251);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // txt1
-            // 
-            this.txt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt1.Location = new System.Drawing.Point(3, 3);
-            this.txt1.Multiline = true;
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(105, 77);
-            this.txt1.TabIndex = 0;
-            this.txt1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt1.TextChanged += new System.EventHandler(this.txt1_TextChanged);
             // 
             // txt2
             // 
@@ -179,6 +168,17 @@
             this.txt9.TabIndex = 8;
             this.txt9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt9.TextChanged += new System.EventHandler(this.txt9_TextChanged);
+            // 
+            // txt1
+            // 
+            this.txt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt1.Location = new System.Drawing.Point(3, 3);
+            this.txt1.Multiline = true;
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(105, 77);
+            this.txt1.TabIndex = 0;
+            this.txt1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt1.TextChanged += new System.EventHandler(this.txt1_TextChanged);
             // 
             // pnlJuego
             // 
@@ -329,7 +329,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 423);
+            this.ClientSize = new System.Drawing.Size(470, 423);
             this.Controls.Add(this.pnlJuego);
             this.Controls.Add(this.pnlInicio);
             this.Name = "TresEnRayaToñiSanchezMaiquez";

@@ -1,0 +1,10 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\bin\Debug\EjercicioClases.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\bin\Debug\EjercicioClases.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\bin\Debug\EjercicioClases.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\obj\Debug\EjercicioClases.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\obj\Debug\EjercicioClases.Form1.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\obj\Debug\EjercicioClases.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\obj\Debug\EjercicioClases.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\obj\Debug\EjercicioClases.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\obj\Debug\EjercicioClases.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioClases\obj\Debug\EjercicioClases.pdb
