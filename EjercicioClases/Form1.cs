@@ -28,16 +28,31 @@ namespace EjercicioClases
         }
 
       
-      
-        private void articulosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cerrarGrupos()
         {
             grbConsultas.Visible = false;
             grbListado.Visible = false;
             grbPedido.Visible = false;
             grbAltas.Visible = false;
+
             lblCodAct.Visible = false;
+            lblInfoElim.Visible = false;
+            lblElimArt.Visible = false;
+            lblCatList.Visible = false;
+
             btnActArt.Visible = false;
+            btnElimArt.Visible = false;
+
             txtcodAct.Visible = false;
+
+       
+            cbbListado.Visible = false;
+
+
+        }
+        private void articulosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cerrarGrupos();
             ToolStripItem menuItem = sender as ToolStripItem;
 
             if (string.Equals(menuItem.Text, "Actualizar", StringComparison.OrdinalIgnoreCase))
@@ -78,15 +93,10 @@ namespace EjercicioClases
         private void consultasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ToolStripItem menuItem = sender as ToolStripItem;
+            cerrarGrupos();
             lblConsultas.Text = "Consultas";
             rtbConsultas.Clear();
-            grbAltas.Visible = false;
             grbConsultas.Visible = true;
-            grbPedido.Visible = false;
-            grbListado.Visible = false;
-            lblInfoElim.Visible = false;
-            lblElimArt.Visible = false;
-            btnElimArt.Visible = false;
 
             if (string.Equals(menuItem.Text, "Por &Nombre", StringComparison.OrdinalIgnoreCase))
             {
@@ -104,11 +114,7 @@ namespace EjercicioClases
         }
         private void autorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            grbAltas.Visible = false;
-            grbPedido.Visible = false;
-            grbConsultas.Visible = false;
-            grbListado.Visible = false;
-
+            cerrarGrupos();
             string mensaje = "Toñi Sánchez Maiquez";
             DialogResult result = MessageBox.Show(mensaje, "Autor");
 
@@ -116,13 +122,11 @@ namespace EjercicioClases
         private void listadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ToolStripItem menuItem = sender as ToolStripItem;
+            cerrarGrupos();
             rtbListado.Clear();
-            grbAltas.Visible = false;
-            grbConsultas.Visible = false;
-            grbPedido.Visible = false;
+            
             grbListado.Visible = true;
-            lblCatList.Visible = false;
-            cbbListado.Visible = false;
+           
 
             bool continuar = true;
            
@@ -252,7 +256,7 @@ namespace EjercicioClases
 
                     if ((String.Equals(lblAltas.Text, "Actualizar", StringComparison.OrdinalIgnoreCase)))
                     {
-                    actualizar();
+                        actualizar();
                     }
 
 
@@ -363,28 +367,23 @@ namespace EjercicioClases
                     lblCodNoExiste.Visible = false;
                     txtCodPed.Text = "";
                     txtCantPed.Text = "";
-
                 }
             }          
             else
             {
                 string mensaje2 = "Cantidad almacenada menor a la solicitada.\nNo se puede realizar el pedido.\nCantidad almacenada: " + articulo.ExistenciasArt;
                 MessageBox.Show(mensaje2, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
             }
-
         }   
         private void btnConsultas_Click(object sender, EventArgs e)
         {
-           
-            
+                    
             bool articuloEncontrado = false;
             rtbConsultas.Clear();
             bool busquedaPorCodigo = false;
-
-           
-           
-            if((String.Equals(lblCon.Text, "Código", StringComparison.OrdinalIgnoreCase))){
+                  
+            if((String.Equals(lblCon.Text, "Código", StringComparison.OrdinalIgnoreCase)))
+            {
                 busquedaPorCodigo = true;
             }
             int num = -1;
