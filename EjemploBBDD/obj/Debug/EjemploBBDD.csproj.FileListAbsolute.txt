@@ -1,0 +1,10 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\bin\Debug\EjemploBBDD.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\bin\Debug\EjemploBBDD.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\bin\Debug\EjemploBBDD.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\obj\Debug\EjemploBBDD.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\obj\Debug\EjemploBBDD.Form1.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\obj\Debug\EjemploBBDD.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\obj\Debug\EjemploBBDD.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\obj\Debug\EjemploBBDD.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\obj\Debug\EjemploBBDD.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjemploBBDD\obj\Debug\EjemploBBDD.pdb

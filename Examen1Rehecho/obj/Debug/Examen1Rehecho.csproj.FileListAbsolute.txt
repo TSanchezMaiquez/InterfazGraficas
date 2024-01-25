@@ -1,0 +1,11 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\bin\Debug\Examen1Rehecho.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\bin\Debug\Examen1Rehecho.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\bin\Debug\Examen1Rehecho.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.Form1.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Rehecho\obj\Debug\Examen1Rehecho.Form2.resources

@@ -1,0 +1,11 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\bin\Debug\CompraInteractiva.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\bin\Debug\CompraInteractiva.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\bin\Debug\CompraInteractiva.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.CompraInteractiva.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\CompraInteractiva\obj\Debug\CompraInteractiva.Factura.resources

@@ -1,0 +1,17 @@
+                    ---PRESUPUESTO---    
+
+    aaaaa			   Toñi Sanchez
+    sg			   12345678D
+    sdf			   Toñi@hotmail.com
+
+    Dispositivos                   Importe   
+
+    macintosh                       1000€
+    contestador                        50€
+    impresora                            90€
+
+
+Total:                                         2280€ 
+IVA(21%):                                2758,8€
+
+ Forma de pago: Tarjeta

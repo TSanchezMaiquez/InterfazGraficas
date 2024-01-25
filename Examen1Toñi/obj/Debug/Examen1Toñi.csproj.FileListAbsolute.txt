@@ -1,0 +1,11 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\bin\Debug\Examen1Toñi.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\bin\Debug\Examen1Toñi.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\bin\Debug\Examen1Toñi.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.Form1.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\Examen1Toñi\obj\Debug\Examen1Toñi.Form2.resources

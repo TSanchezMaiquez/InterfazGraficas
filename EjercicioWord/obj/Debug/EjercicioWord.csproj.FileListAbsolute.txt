@@ -1,0 +1,11 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\bin\Debug\EjercicioWord.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\bin\Debug\EjercicioWord.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\bin\Debug\EjercicioWord.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.Padre.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.Hijo.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioWord\obj\Debug\EjercicioWord.pdb

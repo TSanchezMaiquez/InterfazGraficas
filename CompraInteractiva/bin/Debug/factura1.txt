@@ -1,0 +1,17 @@
+                    ---PRESUPUESTO---    
+
+    toi			   Toñi Sanchez
+    123123123A			   12345678D
+    sdfg@df.com			   Toñi@hotmail.com
+
+    Dispositivos                   Importe   
+
+    macintosh                       1000€
+    calculadora                        20€
+    impresora                            90€
+
+
+Total:                                         1110€ 
+IVA(21%):                                1343,1€
+
+ Forma de pago: PayPal

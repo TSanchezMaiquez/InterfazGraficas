@@ -1,0 +1,11 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\bin\Debug\mdi.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\bin\Debug\mdi.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\bin\Debug\mdi.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.Form1.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.frmHijo.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\mdi\obj\Debug\mdi.pdb

@@ -1,0 +1,10 @@
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\bin\Debug\EjercicioHerencia.exe.config
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\bin\Debug\EjercicioHerencia.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\bin\Debug\EjercicioHerencia.pdb
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\obj\Debug\EjercicioHerencia.csproj.AssemblyReference.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\obj\Debug\EjercicioHerencia.Form1.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\obj\Debug\EjercicioHerencia.Properties.Resources.resources
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\obj\Debug\EjercicioHerencia.csproj.GenerateResource.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\obj\Debug\EjercicioHerencia.csproj.CoreCompileInputs.cache
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\obj\Debug\EjercicioHerencia.exe
+C:\Users\yunni\Desktop\DAM\2ºDAM\Interfaces\EjercicioHerencia\obj\Debug\EjercicioHerencia.pdb
